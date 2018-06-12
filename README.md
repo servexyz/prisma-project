@@ -55,7 +55,3 @@ cd aws-sls-auth-starter && npm install \
 | SLSTAR  | **npm start**                           | 3000             |
 | PRASTAR | **docker-compose up -d && npm run dev** | 4000, 4466, 3306 |
 | DOCSTAR | **docker-compose up -d**                | 3099             |
-
-```
-
-```
