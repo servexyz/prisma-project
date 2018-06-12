@@ -50,11 +50,11 @@ cd aws-sls-auth-starter && npm install \
 
 **Running**
 
-| Project | Run Command              | Port             |
-| :------ | :----------------------- | :--------------- |
-| SLSTAR  | **npm start**            | 3000             |
-| PRASTAR | **npm run dev**          | 4000, 4466, 3306 |
-| DOCSTAR | **docker-compose up -d** | 3099             |
+| Project | Run Command                             | Port             |
+| :------ | :-------------------------------------- | :--------------- |
+| SLSTAR  | **npm start**                           | 3000             |
+| PRASTAR | **docker-compose up -d && npm run dev** | 4000, 4466, 3306 |
+| DOCSTAR | **docker-compose up -d**                | 3099             |
 
 ```
 
