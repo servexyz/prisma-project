@@ -2,6 +2,22 @@
 
 > Amalgam of SLSTAR, PRASTAR & DOCSTAR
 
+### Getting Started
+
+1.  After cloning, run:
+
+```bash
+npx repo-genesis-cli .repogen.js
+```
+
+2.  After repo-genesis finishes, copy/paste/run the following in your terminal (from prisma-project directory):
+
+```bash
+cd aws-sls-auth-starter && npm install \
+&& cd ../prisma-authorized-starter && npm install \
+&& cd ../
+```
+
 ### Projects
 
 **Moniker**
@@ -39,3 +55,7 @@
 | SLSTAR  | **npm start**            | 3000             |
 | PRASTAR | **npm run dev**          | 4000, 4466, 3306 |
 | DOCSTAR | **docker-compose up -d** | 3099             |
+
+```
+
+```
